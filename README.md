@@ -69,3 +69,46 @@
   - switch / where
   - continue / break / fallthrough / return / throw
   - label
+  
+#### 函数(Funtions)
+  - func sayHello(person: String) -> String {}
+  - (to person: String, and anotherPerson: String)
+  - (numbers: Double...)
+  - (var string: String)
+  - (inout a: Int, inout _ b: Int)
+  
+#### 闭包(Closures )
+  - 闭包表达式语法(Closure Expression Syntax)
+    - \{ (s1: String, s2: String) -> Bool in return s1 > s2 \}
+    - \{ s1, s2 in s1 > s2 \}
+    - \{ $0 > $1 \}
+    - >
+  - 尾随闭包(Trailing Closures)
+  - 捕获值(Capturing Values)
+  - 非逃逸闭包(Nonescaping Closures)
+  - 自动闭包(Autoclosures)
+#### 枚举(Enumerations)
+  - enum / case
+  - rawValue
+  - indirect
+  
+#### 类和结构体(Classes and Structures)
+  - class / struct
+  - === / !==
+  - 结构体和枚举是值类型，类是引用类型
+  - String，Array和Dictionary类型均以结构体的形式实现
+  
+#### 属性(Properties)
+  - 存储属性，lazy
+  - 计算属性，static / get / set
+  - willSet / didSet / newValue / oldValue
+  - static
+  
+#### 方法(Methods)
+  - Instance Methods
+  - self
+  - mutating
+  - Type Methods, static
+  
+#### 下标(Subscripts)
+  - subscript / get / set
