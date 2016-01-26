@@ -1,4 +1,4 @@
-# Swift in one page
+# Swift一页纸提纲(Swift in one page)
 
 ### Language Guide
 
@@ -74,7 +74,7 @@
   - func sayHello(person: String) -> String {}
   - (to person: String, and anotherPerson: String)
   - (numbers: Double...)
-  - (var string: String)
+  - (var string: String = "Hello")
   - (inout a: Int, inout _ b: Int)
   
 #### 闭包(Closures )
@@ -112,3 +112,20 @@
   
 #### 下标(Subscripts)
   - subscript / get / set
+  
+#### 继承(Inheritance)
+  - class SubClass: SuperClass {}
+  - override
+  - final
+  
+#### 错误处理(Error Handling)
+  - ErrorType
+  - func canThrowErrors() throws -> String
+  - try / try? / try!
+  - do-catch
+  - defer
+  
+#### 类型转换(Type Casting)
+  - is
+  - as / as? / as!
+  - Any / AnyObject
